@@ -1,0 +1,74 @@
+
+# Orden de Aprendizaje Sugerido para Java Básico
+
+## 1. Fundamentos y Tipos de Datos Primitivos
+- HolaMundo.java: Introducción básica, punto de entrada a la aplicación.
+- PrimitivosEnteros.java: Tipos de datos numéricos enteros (byte, short, int, long).
+- PrimitivosFloat.java: Tipos de datos numéricos de punto flotante (float, double).
+- PrimitivosCaracteres.java: Tipo de dato char.
+- PrimitivosBoolean.java: Tipo de dato boolean.
+- SistemasNumericos.java: Representación de números en diferentes bases (decimal, binario, octal, hexadecimal).
+- ConversionDeTipos.java: Casting o conversión entre tipos de datos.
+
+## 2. Operadores
+- OperadoresAritmeticos.java: Operaciones matemáticas básicas (+, -, *, /, %).
+- OperadoresAsignacion.java: Operadores para asignar valores (=, +=, -=, etc.).
+- OperadoresUnarios.java: Operadores que actúan sobre un solo operando (+, -, ++, --, !).
+- OperadoresIncrementales.java: Operadores de pre y post incremento/decremento.
+- OperadoresRelacionales.java: Comparaciones (==, !=, <, >, <=, >=).
+- OperadoresLogico.java: Operadores lógicos (&&, ||, !).
+- PrecedenciaOperadores.java: Orden en que se evalúan los operadores.
+- OperadoresLogicosLogin.java: Ejemplo práctico usando operadores lógicos.
+
+## 3. La Clase String
+- EjemploString.java: Conceptos básicos de la clase String.
+- EjemploStringConcatenacion.java: Diferentes formas de concatenar cadenas.
+- EjemploStringInmutable.java: Entender la inmutabilidad de los Strings.
+- EjemploStringTestRendimientoConcat.java: Comparación de rendimiento entre `+`, `concat()` y `StringBuilder`.
+- EjemploStringValidar.java: Comprobar si un String es nulo o vacío.
+- EjemploStringMetodos.java: Métodos comunes de la clase String (length, toUpperCase, etc.).
+- EjemploStringMetodosArreglo.java: Conversión entre String y arreglos (split, toCharArray).
+- EjemploStringExtensionArchivo.java: Ejemplo práctico para obtener la extensión de un archivo.
+
+## 4. Flujos de Control (Condicionales)
+- SentenciaIfElse.java: Estructura de control `if-else`.
+- SentenciaIfElseNumDiasMes.java: Ejemplo práctico con `if-else`.
+- OperadorTernario.java: Operador condicional `? :`.
+- OperadorTernarioNumeroMayor.java: Ejemplo para encontrar el número mayor.
+- SentenciaSwitchCase.java: Estructura de control `switch`.
+- SentenciaSwitchCaseNumDiasMes.java: Ejemplo práctico con `switch`.
+
+## 5. Flujos de Control (Bucles)
+- SentenciaWhile.java: Bucle `while`.
+- SentenciaFor.java: Bucle `for`.
+- SentenciaForArreglo.java: Recorrer arreglos con `for`.
+- SentenciaForEach.java: Bucle `for-each` para colecciones y arreglos.
+- SentenciasBucleEtiquetas.java: Uso de etiquetas en bucles.
+- SentenciasBucleEtiquetasBuscar.java: Ejemplo práctico de búsqueda con etiquetas.
+
+## 6. Clases Wrapper y Autoboxing
+- WrapperInteger.java: Introducción a la clase `Integer`.
+- AutoboxingInteger.java: Conversión automática entre primitivos y sus wrappers.
+- WrapperOperadoresRelacionales.java: Comparación de objetos Wrapper.
+- WrapperBoolean.java: Introducción a la clase `Boolean`.
+
+## 7. Entrada/Salida y Argumentos
+- SistemasNumericosEntradaScanner.java: Leer datos de la consola con la clase `Scanner`.
+- ArgumentosLineaComando.java: Recibir argumentos desde la línea de comandos.
+- ArgumentosLineaComandoCalculadora.java: Ejemplo de una calculadora por línea de comandos.
+
+## 8. Temas Adicionales y Clases de la API de Java
+- PasarPorValor.java: Paso de argumentos por valor.
+- PasarPorReferencia.java / PasarPorReferencia2.java: Simulación de paso por referencia con objetos.
+- OperadorInstanceOf.java: Comprobar el tipo de un objeto en tiempo de ejecución.
+- OperadorInstanceOfTiposGenericos.java: Uso de `instanceof` con genéricos.
+- EjemploJavaUtilDate.java / EjemploJavaUtilDateParse.java: Manejo de fechas con `java.util.Date`.
+- EjemploJavaUtilCalendar.java: Manejo de fechas con la clase `Calendar`.
+- EjemploClaseMath.java / EjemploClaseMathRandom.java: Funcionalidades matemáticas y números aleatorios.
+- EjemploMetodoGetClass.java: Obtener información de la clase de un objeto.
+
+## 9. Interacción con el Entorno del Sistema
+- EjemploPropiedadesDeSistema.java: Leer propiedades del sistema Java.
+- EjemploAsignarPropiedadesDeSistema.java: Modificar propiedades del sistema y uso de `config.properties`.
+- EjemploVariablesDeEntorno.java: Leer variables de entorno del sistema operativo.
+- EjemploEjecutarProgramaSO.java: Ejecutar procesos externos desde Java.
