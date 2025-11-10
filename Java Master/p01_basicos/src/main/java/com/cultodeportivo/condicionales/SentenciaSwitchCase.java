@@ -64,8 +64,8 @@ public class SentenciaSwitchCase {
             switch (nombre) {
                 case "admin" ->
                     System.out.println("Hola admin, bienvenido!");
-                case "andres" ->
-                    System.out.println("Hola andres!");
+                case "Felipe" ->
+                    System.out.println("Hola Felipe!");
                 case "pepe" ->
                     System.out.println("Hola pepe");
                 default ->

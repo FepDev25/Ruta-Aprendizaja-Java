@@ -8,7 +8,7 @@ public class SentenciaForEach {
             System.out.println("num = " + num);
         }
 
-        String[] nombres = {"Andres", "Pepe", "Maria", "Paco", "Lalo", "Bea", "Pato", "Pepa"};
+        String[] nombres = {"Felipe", "Pepe", "Maria", "Paco", "Lalo", "Bea", "Pato", "Pepa"};
 
         for (String nombre : nombres) {
             System.out.println("nombre = " + nombre);

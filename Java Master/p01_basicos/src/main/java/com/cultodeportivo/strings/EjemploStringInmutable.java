@@ -3,7 +3,7 @@ package com.cultodeportivo.strings;
 public class EjemploStringInmutable {
     public static void main(String[] args) {
         String curso = "Java Master";
-        String profesor = "Andrés Guzmán";
+        String profesor = "Felipe Peralta";
         String resultado = curso.concat(profesor);
 
         System.out.println("curso = " + curso);

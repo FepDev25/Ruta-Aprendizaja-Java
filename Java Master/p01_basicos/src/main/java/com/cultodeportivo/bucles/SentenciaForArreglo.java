@@ -5,11 +5,11 @@ import javax.swing.JOptionPane;
 public class SentenciaForArreglo {
 
     public static void main(String[] args) {
-        String[] nombres = {"Andres", "Pepe", "Maria", "Paco", "Lalo", "Bea", "Pato", "Pepa"};
+        String[] nombres = {"Felipe", "Pepe", "Maria", "Paco", "Lalo", "Bea", "Pato", "Pepa"};
         int count = nombres.length;
 
         for (int i = 0; i < count; i++) {
-            if (nombres[i].toLowerCase().contains("ANDRES".toLowerCase())
+            if (nombres[i].toLowerCase().contains("Felipe".toLowerCase())
                     || nombres[i].toLowerCase().contains("pePa".toLowerCase())) {
                 continue;
             }
