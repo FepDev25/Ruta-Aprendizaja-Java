@@ -97,3 +97,6 @@ $RECYCLE.BIN/
 *.swp
 *.swo
 *~
+
+*CLAUDE.md
+docs/
